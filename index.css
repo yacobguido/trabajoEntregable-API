@@ -1,0 +1,35 @@
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.card{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+}
+
+.contenedor_datos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(150, 0, 0, 0.812);
+    color: rgb(255, 255, 255);
+}
+img{
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: rgb(116, 1, 1);
+}
